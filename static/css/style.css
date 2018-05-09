@@ -15,10 +15,12 @@
     color: rgb(0, 153, 255);
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.5s;
 }
 
 .linkstyle {
     color: #ffffff;
+    transition: all 0.5s;
 }
 
 .row-in-footer {
@@ -273,6 +275,10 @@ blockquote p {
 .readmore-button {
     display: block;
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+
+.center-td {
+    vertical-align: middle;
 }
 
 @media (max-width: 767px) {
