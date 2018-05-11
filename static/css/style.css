@@ -1,3 +1,22 @@
+.line-header {
+    background: #cecece;
+    color: #565656;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    Line-height: 16px;
+    font-style: normal;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header-logo-call {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .card-list-item {
     background: #333333;
     border-left: 0;
@@ -33,7 +52,9 @@
 
 .content-container {
     background: #ffffff;
+    padding-top: 2%;
     padding-bottom: 2%;
+    font-family: 'Oswald', sans-serif;
 }
 
 .footer-container-fluid {
@@ -52,6 +73,34 @@
 
 .nav-style {
     background-color: #010734;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.nav-style li a {
+    padding: 0.2rem 0.9375rem;
+    font-size: 0.85rem;
+    transition: all 0.5s;
+    font-size: 14px;
+    Line-height: 22px;
+    border-right: 1px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 12px;
+    padding-left: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-style li:hover {
+    background-color: #42a9e6;
 }
 
 .nav-col {
@@ -63,6 +112,7 @@
     font-size: 18px;
     color: #38a4e5;
     padding-top: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .call-header-col {
@@ -79,6 +129,7 @@
 
 .web-body {
     background: #efefef;
+    font-family: 'Oswald', sans-serif;
 }
 
 .social-img {
@@ -87,6 +138,8 @@
 
 .page-title {
     color: #990000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 
@@ -203,10 +256,10 @@ blockquote p {
     margin-bottom: 7px;
     text-transform: uppercase;
     overflow: hidden;
+    font-family: 'Oswald', sans-serif;
 }
 
 .widget-title h4 {
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: #fff;
 }
@@ -232,9 +285,13 @@ blockquote p {
     font-weight: 400;
 }
 
+p {
+    font-family: 'PT Serif', serif;
+}
+
 .right-row-h a {
     text-decoration: none;
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #1f1e1e;
     transition: all 0.5s;
 }
@@ -245,11 +302,11 @@ blockquote p {
 
 .right-row-td a {
     text-decoration: none;
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #1f1e1e;
-    font-size: 0.8rem;
+    font-size: 100%;
+    font-weight: 400;
     transition: all 0.5s;
-    font-weight: bold;
 }
 
 .right-row-td a:hover {
@@ -289,5 +346,8 @@ blockquote p {
     }
     .down {
         margin-top: 10px;
+    }
+    .nav-style {
+        padding-left: 2%;
     }
 }
