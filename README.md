@@ -19,9 +19,9 @@ you have two options for that
 install github on your machine and use the following command -
  git clone https://github.com/bartawilly/goodsenseliving.git
 
-and then go to the path you clone the project in and open the project folder then open templates folder and finally double click on the base.html file
+and then go to the path you clone the project in and open the project folder then  double click on the base.html file
 
 ### Second one
 
 instead of installing github you can download the project as a ZIP file then extract it -
-go to your project path and open templates folder and finally double click on the base.html file
+go to your project path and double click on the base.html file
