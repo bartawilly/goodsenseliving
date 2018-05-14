@@ -339,10 +339,14 @@ p {
 }
 
 @media (max-width: 767px) {
-    .page-title {
-        font-size: 2.0rem;
-        color: #999;
-        font-size: 0.8rem;
+    .parag-img-left {
+        float: none;
+    }
+    #img1 {
+        width: 100%;
+    }
+    .wp-caption-text {
+        width: 100%;
     }
     .nav-style {
         background-color: #42a9e6;
